@@ -3,27 +3,19 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.sqlite3
+*.db
 
 # Virtual environment
 venv/
-env/
-
-# FastAPI / SQLite
-*.db
-*.sqlite3
-
-# Node.js / React
-node_modules/
-build/
-dist/
-
-# Logs
-*.log
-
-# IDE and system files
-.vscode/
-.idea/
-.DS_Store
 
 # Environment variables
 .env
+
+# Node modules (frontend)
+node_modules/
+dist/
+build/
+
+# Other
+.DS_Store
